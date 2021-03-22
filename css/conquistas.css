@@ -1,0 +1,36 @@
+.conquistas {
+   padding: 2rem 0;
+}
+
+.title_conquistas {
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+.description_conquistas {
+   color: rgba(0,0,0,.5);
+   text-align: center;
+}
+
+.wrapper_conquistas:first-child::before {
+   content: url("../images/icons/icon-communities.svg");
+}
+
+.wrapper_conquistas:nth-child(2)::before  {
+   content: url("../images/icons/icon-messages.svg");
+}
+
+@media screen and (max-width: 1000px) {
+   .conquistas {
+      align-items: center;
+      grid-gap: 10rem;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+   .conquistas {
+      flex-direction: row;
+      justify-content: center;
+      grid-gap: 20rem;
+   }
+}

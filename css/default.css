@@ -29,7 +29,7 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
-   p {
+   .paragrafo_banner {
       width: 31.25rem;
    }
 }
