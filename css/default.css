@@ -1,6 +1,5 @@
 body {
    font-family: "Open Sans", sans-serif;
-   line-height: 1.3;
 }
 
 h1 {
@@ -9,6 +8,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h1,
@@ -22,6 +22,7 @@ h6 {
 
 p {
    color: rgba(0, 0, 0, .9);
+   line-height: 1.5;
 }
 
 a {
@@ -29,7 +30,7 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
-   .paragrafo_banner {
-      width: 31.25rem;
+   .paragrafo {
+      width: 32rem;
    }
 }

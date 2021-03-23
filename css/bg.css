@@ -1,0 +1,53 @@
+@media screen and (max-width: 380px) {
+   .wrapper_beneficios:nth-child(1) {
+      background:
+         url("../images/bg/mobile/bg-section-top-mobile-1.svg") no-repeat top / contain,
+         url("../images/bg/mobile/bg-section-bottom-mobile-1.svg") no-repeat bottom / contain,
+         content-box 
+         hsl(207, 100%, 98%);
+      padding-top: 112px;
+      padding-bottom: 52px;
+   }
+
+   .wrapper_beneficios:nth-child(3) {
+      background:
+         url("../images/bg/mobile/bg-section-top-mobile-2.svg") no-repeat top / contain,
+         url("../images/bg/mobile/bg-section-bottom-mobile-2.svg") no-repeat bottom / contain,
+         content-box 
+         hsl(207, 100%, 98%);
+      padding-top: 103px;
+      padding-bottom: 101px;
+   }
+
+   .wrapper_wrapper {
+      padding: 3rem 1.5rem;
+   }
+}
+
+@media screen and (min-width: 380px) and (max-width: 1450px) {
+   .wrapper_beneficios:nth-child(1) {
+      background: 
+         url("../images/bg/desktop/bg-section-top-desktop-1.svg") no-repeat top,
+         url("../images/bg/desktop/bg-section-bottom-desktop-1.svg") no-repeat bottom,
+         content-box
+         hsl(207, 100%, 98%);
+
+      padding-top: 165px;
+      padding-bottom: 139px;
+   }
+
+   .wrapper_beneficios:nth-child(3) {
+      background:
+         url("../images/bg/desktop/bg-section-top-desktop-2.svg") no-repeat top,
+         url("../images/bg/desktop/bg-section-bottom-desktop-2.svg") no-repeat bottom,
+         content-box
+         hsl(207, 100%, 98%);
+
+      padding-top: 156px;
+      padding-bottom: 139px;
+   }
+
+   .wrapper_wrapper {
+      padding: 0 3rem;
+   }
+}
