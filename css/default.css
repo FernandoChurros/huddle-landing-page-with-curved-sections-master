@@ -1,5 +1,15 @@
+a {
+  color: inherit;
+}
+
 body {
    font-family: "Open Sans", sans-serif;
+}
+
+button, input {
+  font-size: 100%;
+  box-sizing: border-box;
+  border: none;
 }
 
 h1 {
@@ -24,7 +34,6 @@ h6 {
 }
 
 p {
-   color: rgba(0, 0, 0, .9);
    line-height: 1.5;
 }
 

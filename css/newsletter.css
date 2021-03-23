@@ -1,0 +1,37 @@
+.newsletter_email {
+   padding: 1rem;
+   margin-top: .5rem;
+}
+
+.newsletter_email, .newsletter-btn {
+   border-radius: 5px;
+}
+
+.newsletter-btn {
+   align-self: flex-end;
+   width: max-content;
+}
+
+@media screen and (max-width: 1000px) {
+   .newsletter {
+      display: flex;
+      flex-direction: column;
+      grid-gap: 1rem;
+   }
+
+   .newsletter_email {
+      display: block;
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+   .newsletter p, .footer_contato p {
+      margin: 1rem 0;
+   }
+
+   .newsletter_email {
+      width: 30rem;
+      margin-right: 2rem;
+   }
+}

@@ -1,36 +1,40 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 1000px) {
    .wrapper_beneficios:nth-child(1) {
       background:
-         url("../images/bg/mobile/bg-section-top-mobile-1.svg") no-repeat top / contain,
-         url("../images/bg/mobile/bg-section-bottom-mobile-1.svg") no-repeat bottom / contain,
-         content-box 
-         hsl(207, 100%, 98%);
+         url("../images/bg/mobile/bg-section-top-mobile-1.svg") no-repeat top / 100% 112px,
+         url("../images/bg/mobile/bg-section-bottom-mobile-1.svg") no-repeat bottom / 100% 52px,
+         content-box hsl(207, 100%, 98%);
       padding-top: 112px;
       padding-bottom: 52px;
    }
 
    .wrapper_beneficios:nth-child(3) {
       background:
-         url("../images/bg/mobile/bg-section-top-mobile-2.svg") no-repeat top / contain,
-         url("../images/bg/mobile/bg-section-bottom-mobile-2.svg") no-repeat bottom / contain,
-         content-box 
-         hsl(207, 100%, 98%);
+         url("../images/bg/mobile/bg-section-top-mobile-2.svg") no-repeat top / 100% 103px,
+         url("../images/bg/mobile/bg-section-bottom-mobile-2.svg") no-repeat bottom / 100% 101px,
+         content-box hsl(207, 100%, 98%);
       padding-top: 103px;
       padding-bottom: 101px;
    }
 
-   .wrapper_wrapper {
+   .footer {
+      background: url("../images/bg/mobile/bg-footer-top-mobile.svg") no-repeat top / 100% 53px,
+         content-box hsl(192, 100%, 9%);
+      color: #FFF;
+      padding-top: 53px;
+   }
+
+   .wrapper_wrapper, .wrapper_footer {
       padding: 3rem 1.5rem;
    }
 }
 
-@media screen and (min-width: 380px) and (max-width: 1450px) {
+@media screen and (min-width: 1000px) {
    .wrapper_beneficios:nth-child(1) {
-      background: 
-         url("../images/bg/desktop/bg-section-top-desktop-1.svg") no-repeat top,
-         url("../images/bg/desktop/bg-section-bottom-desktop-1.svg") no-repeat bottom,
-         content-box
-         hsl(207, 100%, 98%);
+      background:
+         url("../images/bg/desktop/bg-section-top-desktop-1.svg") no-repeat top / 100% 165px,
+         url("../images/bg/desktop/bg-section-bottom-desktop-1.svg") no-repeat bottom / 100% 139px,
+         content-box hsl(207, 100%, 98%);
 
       padding-top: 165px;
       padding-bottom: 139px;
@@ -38,16 +42,22 @@
 
    .wrapper_beneficios:nth-child(3) {
       background:
-         url("../images/bg/desktop/bg-section-top-desktop-2.svg") no-repeat top,
-         url("../images/bg/desktop/bg-section-bottom-desktop-2.svg") no-repeat bottom,
-         content-box
-         hsl(207, 100%, 98%);
+         url("../images/bg/desktop/bg-section-top-desktop-2.svg") no-repeat top / 100% 156px,
+         url("../images/bg/desktop/bg-section-bottom-desktop-2.svg") no-repeat bottom / 100% 139px,
+         content-box hsl(207, 100%, 98%);
 
       padding-top: 156px;
       padding-bottom: 139px;
    }
 
-   .wrapper_wrapper {
+   .footer {
+      background: url("../images/bg/desktop/bg-footer-top-desktop.svg") no-repeat top/100% 158px,
+      content-box hsl(192, 100%, 9%);
+      padding-top: 158px;
+      color: #FFF;
+   }
+
+   .wrapper_wrapper, .wrapper_footer {
       padding: 0 3rem;
    }
 }

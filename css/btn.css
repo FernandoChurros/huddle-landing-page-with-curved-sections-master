@@ -5,6 +5,7 @@
    color: #FFF;
    font-weight: 700;
    padding: 1rem 3rem;
+   cursor: pointer;
 }
 
 .btn:hover:not(.btn-header) {
