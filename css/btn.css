@@ -1,9 +1,9 @@
 .btn {
    background-color: hsl(322, 100%, 66%);
+   box-sizing: border-box;
    border-radius: 100px;
    color: #FFF;
    font-weight: 700;
-   width: max-content;
    padding: 1rem 3rem;
 }
 
