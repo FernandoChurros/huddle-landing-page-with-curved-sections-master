@@ -54,6 +54,6 @@
    .wrapper_footer {
       flex-direction: row-reverse;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-end;
    }
 }
