@@ -53,5 +53,7 @@
 @media screen and (min-width: 1000px) {
    .wrapper_footer {
       flex-direction: row-reverse;
+      flex-wrap: wrap;
+      justify-content: center;
    }
 }
